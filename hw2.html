@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html</title>
+</head>
+<body>
+      <!-- this is our navbar section  -->
+        <nav>
+         <ul style="list-style-type:none;"> 
+            <li>
+                <a href="#about">Home</a>
+            </li>
+            <li>
+                <a href="./1stclass.html">About Me</a>
+            </li>
+            <li>
+                <a href="#contact">Contact Us</a>
+            </li>
+         </ul>
+        </nav>
+    <main>
+    <section id="about">
+        <h1 align ="center">About Me</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus </p>
+    </section>
+    <section id="project">
+        <h2 align="center">Contact us</h2>
+        <form action="./script.js" method="POST">
+         <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder ="type your name " maxlength="50" required>
+         </div>
+         <br>
+         <div>
+            <label for="message">Messages:</label>
+            <textarea type="message" id="message" cols="100" rows="10"></textarea>
+         </div>
+         <br>
+         <div>
+            <label for="tel">Phone no.</label>
+            <input type="tel" bame="number"placeholder="xxxxxxxxxx" required>
+         </div>
+         <br>
+         <div>
+            <label for="date-time">Date of appointment </label>
+            <input type="datetime-local" >
+         </div>
+         <br>
+         <div>
+         <label for="contact-type">Contact via whatsup or call</label><br>
+         <label for="call">call:</label>
+         <input type="radio" name="contact-type" value="call">
+         <label for="whatsup">Whatsup:</label>
+         <input type="radio" name="contact-type" value="whatsup">
+        </div>
+        <br>
+        <div> 
+            <label for="time slot">Time slots:</label>
+            <label for="12-1">12am-1pm</label>
+            <input type="checkbox">
+            <label for="2-3">2pm-3pm</label>
+            <input type="checkbox">
+            <label for="4-5">4pm-5pm</label>
+            <input type="checkbox"> 
+       
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+      
+        </div>
+        </form>
+    </section>
+    <section id="contact">
+        <h3 align ="center">Project</h3>
+        <table border="1" cell-spacing="0" align="center">
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>description</th>
+                <th>project link </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>notes app</td>
+                <td>this is used to change or edit of notes</td>
+                <td><a href="https://navi.com/">note link</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>snap app</td>
+                <td>this is used to change or edit of notes</td>
+                <td><a href="https://navi.com/">snap link</a></td>
+           
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>social app</td>
+                <td>this is used to change or edit of notes</td>
+                <td><a href="https://navi.com/">social link</a></td>
+           
+            </tr>
+        </table>
+    </section>
+    </main>
+    <footer>
+<h3 align="center">YOU CAN ALSO CONTACT ME ON</h3>
+<div align="center">
+<a href="https://navi.com/" target="_blank">Facebook</a>
+<a href="https://navi.com/" target="_blank" >Githhub</a>
+<a href="https://navi.com/" target="_blank">Snapchat</a>
+</div>
+
+    </footer>
+</body>
+</html>
